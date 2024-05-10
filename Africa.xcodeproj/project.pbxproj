@@ -48,7 +48,6 @@
 		56BA2C0C2BED40180031C720 /* MapAnnotationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BA2C0B2BED40180031C720 /* MapAnnotationView.swift */; };
 		56BA2C0E2BEDBB910031C720 /* MotionAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BA2C0D2BEDBB910031C720 /* MotionAnimationView.swift */; };
 		56BA2C102BEDE30F0031C720 /* AnimalGridItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 56BA2C0F2BEDE30F0031C720 /* AnimalGridItemView.swift */; };
-		56BA2C162BEDEE610031C720 /* Stickers.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 56BA2C152BEDEE610031C720 /* Stickers.xcassets */; };
 		56BA2C1A2BEDEE620031C720 /* Stickers.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 56BA2C132BEDEE5F0031C720 /* Stickers.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
@@ -121,8 +120,6 @@
 		56BA2C0D2BEDBB910031C720 /* MotionAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MotionAnimationView.swift; sourceTree = "<group>"; };
 		56BA2C0F2BEDE30F0031C720 /* AnimalGridItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimalGridItemView.swift; sourceTree = "<group>"; };
 		56BA2C132BEDEE5F0031C720 /* Stickers.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = Stickers.appex; sourceTree = BUILT_PRODUCTS_DIR; };
-		56BA2C152BEDEE610031C720 /* Stickers.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Stickers.xcassets; sourceTree = "<group>"; };
-		56BA2C172BEDEE610031C720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +137,6 @@
 			isa = PBXGroup;
 			children = (
 				56BA2BAC2BEC86550031C720 /* Africa */,
-				56BA2C142BEDEE5F0031C720 /* Stickers */,
 				56BA2BAB2BEC86550031C720 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -267,15 +263,6 @@
 			path = Utilities;
 			sourceTree = "<group>";
 		};
-		56BA2C142BEDEE5F0031C720 /* Stickers */ = {
-			isa = PBXGroup;
-			children = (
-				56BA2C152BEDEE610031C720 /* Stickers.xcassets */,
-				56BA2C172BEDEE610031C720 /* Info.plist */,
-			);
-			path = Stickers;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -378,7 +365,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				56BA2C162BEDEE610031C720 /* Stickers.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
